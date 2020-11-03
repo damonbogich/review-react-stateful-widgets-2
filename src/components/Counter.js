@@ -52,6 +52,7 @@ export default function Counter() {
   const [count, setCount] = useState(0);
 
   const increment = () => {
+    console.log('increment pressed')
     setCount(count + 1);
   };
   const decrement = () => {
